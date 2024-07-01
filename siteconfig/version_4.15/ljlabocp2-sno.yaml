@@ -30,7 +30,6 @@ spec:
           "additionalEnabledCapabilities": [
             "NodeTuning",
             "OperatorLifecycleManager",
-            "Ingress",
             "Console"
           ]
         }
