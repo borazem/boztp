@@ -3,5 +3,6 @@ kind: Kustomization
 
 generators:
 - ljlabocp2-sno.yaml
+- ljlabocp3-sno.yaml
 # - example-3node.yaml
 # - example-standard.yaml
