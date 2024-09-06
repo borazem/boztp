@@ -5,7 +5,7 @@ generators:
 - acm-group-du-sno-ranGen.yaml
 #- hub-side-templating/acm-group-du-sno-ranGen-templated.yaml
 # This group validator policy is for all single-node deployments:
-- acm-group-du-sno-validator-ranGen.yaml
+# - acm-group-du-sno-validator-ranGen.yaml
 # This group policy is for all compressed 3-node cluster deployments. Use just one of the 2 below.
 - acm-group-du-3node-ranGen.yaml
 #- hub-side-templating/acm-group-du-3node-ranGen-templated.yaml
