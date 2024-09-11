@@ -1,7 +1,7 @@
 apiVersion: policy.open-cluster-management.io/v1
 kind: PolicyGenerator
 metadata:
-  name: group-du-sno-validator-latest
+  name: group-du-sno-val-latest
 placementBindingDefaults:
   name: group-du-sno-placement-binding
 policyDefaults:
@@ -34,7 +34,7 @@ policyDefaults:
     compliant: 5s
     noncompliant: 10s
 policies:
-- name: group-du-sno-validator-policy-latest
+- name: group-du-sno-val-policy-latest
   policyAnnotations:
     ran.openshift.io/soak-seconds: "30"
     ran.openshift.io/ztp-deploy-wave: "10000"
